@@ -1,0 +1,41 @@
+body {
+    background-color: #f0f8ff;
+    font-family: 'Arial', sans-serif;
+}
+
+.card {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#recommendedMenu {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #28a745;
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 12px 24px;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* 이미지 크기 조정 */
+#recommendedImage {
+    width: 80%; /* 이미지 크기 조정 */
+    max-width: 400px; /* 최대 크기 설정 */
+    border-radius: 8px;
+}
+
+/* 서서히 나타나는 효과 (fadeIn) */
+.fadeInEffect {
+    display: none;
+}
+
+.bounceEffect {
+    display: none;
+}
